@@ -1,0 +1,28 @@
+/* CHALLENGE:
+Find a way to execute the `console.log` function in the last line of code in the `isBakersDozen` function. Do not manipulate the conditional statements such as the IF and ELSE IF conditions, only manipulate the code blocks for each statement. 
+
+EXAMPLE:
+
+INPUT: isBakersDozen(13)
+OUTPUT: LOGS: Last line in the isBakersDozen function!
+        RETURNS: "You are Correct!";
+
+Write you code below        
+*/
+function isBakersDozen(guess){
+    var feedback;
+    if(guess === 13){
+        feedback = "You are Correct!";
+        feedback;
+    } else if(guess === 12){
+        feedback = "Close, but the wrong dozen!";
+        feedback;
+    } else {
+        feedback = "Try Again!";
+        feedback;
+    }
+    console.log("Last line in the isBakersDozen function!");
+    return feedback;
+}
+
+isBakersDozen(13);
